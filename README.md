@@ -1,4 +1,4 @@
-# Kubii
+# Kubii (for MC 1.16.1)
 
 ![](https://static.galathil.fr/img/github/kubii.jpg)
 
