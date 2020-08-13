@@ -37,3 +37,6 @@ Manual installation :
   - Create a "kubii" folder and place jar dependancies (JDA, Emoji, Json) into it. Create a empty file called "kubiiAccounts.json"
   - launch your server, it create the config.yml file.
   - When you change a value in config.yml, restart the server.
+  
+## For developers :
+  - Use the manifest include in the project when your generate the jar file
