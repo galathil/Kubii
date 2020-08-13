@@ -1,0 +1,66 @@
+kubii:
+  discord:
+
+    # REQUIRED
+    # Enable/disable discord features
+    enable: false
+
+    # REQUIRED
+    # Private token used to connect on Discord server
+    token: YOUR_TOKEN_HERE
+
+    # REQUIRED
+    # Discord server ID
+    server-id: 0
+
+    # OPTIONAL
+    # rôle ID to give when player is in-game, leave empty or 0 to disable this feature 
+    role-id: 0
+
+    # OPTIONAL
+    # Text-channel to link with the minecraft chat, leave empty or 0 to disable this feature 
+    text-channel-id: 0
+
+  no-grief:
+    # lists of worlds with denied entities grief
+    # Leave empty to allow in every worlds
+
+    # Deny creepers explosion to grief blocks
+    creeper: 
+      - "world"
+      - "world_nether"
+
+    # Deny enderman to pick up a block
+    enderman:
+      - "world_nether"
+
+    # Deny fireball to grief blocks (ghast)
+    fireball:
+      - "world"
+
+  custom-colors:
+    # See https://minecraft.gamepedia.com/Formatting_codes
+    # players must replace "§" by a "&"
+
+    # REQUIRED
+    # Allow players to uses colors syntax on signs
+    on-signs: true
+
+    # REQUIRED
+    # Allow players to uses colors syntax in books
+    in-books: true
+
+  no-spawn:
+    slime:
+      - "world"
+    wither:
+      - "world"
+    ghast:
+      - "world"
+    zombified-piglin:
+      - "world"
+  misc:
+    # If enabled, remove "Too expensive!" limit. If the price is more expensive than 39 level, it will cost 39 level
+    not-too-expensive : false
+    # If enabled, display death location in chat with death message
+    death-coos-in-chat : false

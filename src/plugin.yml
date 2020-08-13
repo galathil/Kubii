@@ -1,0 +1,6 @@
+main: fr.galathil.kubii.Kubii
+name: Kubii
+version: 1.4.0
+api-version: 1.16
+load: startup
+author: Galathil

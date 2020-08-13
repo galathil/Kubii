@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Class-Path: Kubii/JDA-4.1.1_101-withDependencies.jar Kubii/json-20190722.jar Kubii/emoji-java-5.1.1.jar
